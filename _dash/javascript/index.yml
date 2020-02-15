@@ -1,0 +1,27 @@
+---
+$vars:
+  code: ''
+Tabs:
+  activeTab: 0
+  Card:
+    label: Javascript
+    Header:
+      title: Write Some Code Below
+      Button_clear:
+        position: left
+        label: Clear
+        color: danger
+        onClick: >
+          Dashpad.setVars('code', ''); 
+      Button_save:
+        position: right
+        label: Run
+        color: success
+        onClick: >
+          const code = Dashpad.getVars('code'); 
+          const result = VM.eval(code);
+          console.log(result);
+    Code:
+      theme: github
+      mode: javascript
+      value: ${code}

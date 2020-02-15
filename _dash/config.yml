@@ -1,0 +1,13 @@
+---
+    navs:
+      - name: Playground
+        icon: fa fa-dashboard
+        isOpen: true
+        badge:
+          variant: info
+          text: NEW
+        children:
+          - name: Sandbox
+            icon: fa fa-github
+            goto: javascript/index.yml
+    
