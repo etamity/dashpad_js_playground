@@ -1,7 +1,7 @@
 {
   "name": "dashpad_js_playground",
   "version": "1.0.0",
-  "description": "Javascript coding playground",
+  "description": "Javascript coding playground for Dashpad",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -19,8 +19,7 @@ Tabs:
         color: success
         onClick: >
           const code = Dashpad.getVars('code'); 
-          const result = VM.eval(code);
-          console.log(result);
+          VM.eval(code);
     Code:
       theme: github
       mode: javascript
